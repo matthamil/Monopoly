@@ -1,3 +1,6 @@
+#How to Play
+`cd` to the main directory and run `node scripts/web-server`
+
 #Product Backlog
 <hbr>
 <ul>
