@@ -1,0 +1,11 @@
+<div id="gamelog-container">
+    Game Log
+    <div id="gamelog" scroll-glue>
+        <ul>
+            <li ng-repeat="item in gameLog track by $index">{{item}}</li>
+        </ul>
+    </div>
+</div>
+<div style="text-align: center;">
+    <div ng-show="showPurchaseOptions()" ng-include="'views/property-controls.html'" id="property-ui"></div>
+</div>

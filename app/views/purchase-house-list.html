@@ -1,0 +1,10 @@
+<div id="buy-houses-controls">
+    <h3>Buy Houses</h3>
+    <hr>
+        <div ng-repeat="monopolyColor in playerMonopolies()">
+            Player owned Monopolies: {{playerMonopolies()}}
+            Testing other thing: {{playerMonopolies}}
+            Background color should be: {{monopolyColor}}
+            <button ng-click="buyHouse(monopolyColor)" style="background-color:{{monopolyColor}}">Buy Houses</button>
+        </div>
+</div>

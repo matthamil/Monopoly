@@ -1,0 +1,303 @@
+<table id="board" border="3" cellspacing="0" cellpadding="3" style="text-align:center;font:normal 8pt/9pt 'PT Sans', sans-serif;width:400px;border-collapse:separate; background-color:#F0FFF0;">
+    <tbody><tr>
+        <td style="height:60px;">{{board[20].name}}<br>
+            <div ng-repeat="player in board[20].players">
+                {{player.name}}
+            </div>
+            <div style="width:60px;height:0px;"></div>
+        </td>
+        <td style="border-bottom:solid 12px Red" ng-mouseover="setPopover(21)">
+            <a href="#" tooltip-placement="bottom" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[21].name}}</a><br>
+            ${{board[21].price}}<br>
+            <div ng-repeat="player in board[21].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">
+            {{board[22].name}}<br>
+            <div ng-repeat="player in board[22].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-bottom:solid 12px Red" ng-mouseover="setPopover(23)">
+            <a href="#" tooltip-placement="bottom" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[23].name}}</a><br>
+            ${{board[23].price}}<br>
+            <div ng-repeat="player in board[23].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-bottom:solid 12px Red" ng-mouseover="setPopover(24)">
+            <a href="#" tooltip-placement="bottom" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[24].name}}</a><br>
+            ${{board[24].price}}<br>
+            <div ng-repeat="player in board[24].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">
+            {{board[25].name}}<br>
+            ${{board[25].price}}<br>
+            <div ng-repeat="player in board[25].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-bottom:solid 12px Yellow" ng-mouseover="setPopover(26)">
+            <a href="#" tooltip-placement="bottom" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[26].name}}</a><br>
+            ${{board[26].price}}<br>
+            <div ng-repeat="player in board[26].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-bottom:solid 12px Yellow" ng-mouseover="setPopover(27)">
+            <a href="#" tooltip-placement="bottom" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[27].name}}</a><br>
+            ${{board[27].price}}<br>
+            <div ng-repeat="player in board[27].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">
+            {{board[28].name}}<br>
+            ${{board[28].price}}<br>
+            <div ng-repeat="player in board[28].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-bottom:solid 12px Yellow" ng-mouseover="setPopover(29)">
+            <a href="#" tooltip-placement="bottom" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[29].name}}</a><br>
+            ${{board[29].price}}<br>
+            <div ng-repeat="player in board[29].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td>{{board[30].name}}<br>
+            <div ng-repeat="player in board[30].players">
+                {{player.name}}
+            </div>
+            <div style="width:60px;height:0px;"></div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:34px;border-right:solid 12px Orange" ng-mouseover="setPopover(19)">
+            <a href="#" tooltip-placement="right" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[19].name}}</a><br>
+            ${{board[19].price}}<br>
+            <div ng-repeat="player in board[19].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td rowspan="9" colspan="9" align="center">
+            <table cellpadding="0" cellspacing="2">
+                <tbody><tr>
+                    <td style="border: none;">
+                        <div ng-include="'views/gamelog.html'"></div>
+                        <div ng-include="'views/jail-options.html'"></div>
+                    </td>
+                </tr>
+                </tbody></table>
+        </td>
+        <td style="border-left:solid 12px Green" ng-mouseover="setPopover(31)">
+            <a href="#" tooltip-placement="left" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[31].name}}</a><br>
+            ${{board[31].price}}<br>
+            <div ng-repeat="player in board[31].players">
+                {{player.name}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:34px;border-right:solid 12px Orange" ng-mouseover="setPopover(18)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[18].name}}</a><br>
+            ${{board[18].price}}<br>
+            <div ng-repeat="player in board[18].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-left:solid 12px Green" ng-mouseover="setPopover(32)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[32].name}}</a><br>
+            ${{board[32].price}}<br>
+            <div ng-repeat="player in board[32].players">
+                {{player.name}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:34px;">
+            {{board[17].name}}<br>
+            <div ng-repeat="player in board[17].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">{{board[33].name}}<br>
+            <div ng-repeat="player in board[33].players">
+                {{player.name}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:34px;border-right:solid 12px Orange" ng-mouseover="setPopover(16)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[16].name}}</a><br>
+            ${{board[16].price}}<br>
+            <div ng-repeat="player in board[16].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-left:solid 12px Green" ng-mouseover="setPopover(34)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[34].name}}</a><br>
+            ${{board[34].price}}<br>
+            <div ng-repeat="player in board[34].players">
+                {{player.name}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:34px;">
+            {{board[15].name}}<br>
+            ${{board[15].price}}<br>
+            <div ng-repeat="player in board[15].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">
+            {{board[35].name}}<br>
+            ${{board[35].price}}<br>
+            <div ng-repeat="player in board[35].players">
+                {{player.name}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:34px;border-right:solid 12px DarkOrchid" ng-mouseover="setPopover(14)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[14].name}}</a><br>
+            ${{board[14].price}}<br>
+            <div ng-repeat="player in board[14].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">{{board[36].name}}<br>
+            <div ng-repeat="player in board[36].players">
+                {{player.name}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:34px;border-right:solid 12px DarkOrchid" ng-mouseover="setPopover(13)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[13].name}}</a><br>
+            ${{board[13].price}}<br>
+            <div ng-repeat="player in board[13].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-left:solid 12px Blue" ng-mouseover="setPopover(37)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[3].name}}</a><br>
+            ${{board[37].price}}<br>
+            <div ng-repeat="player in board[37].players">
+                {{player.name}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:34px;">
+            {{board[12].name}}<br>
+            ${{board[12].price}}<br>
+            <div ng-repeat="player in board[12].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">{{board[38].name}}<br>
+            (pay ${{board[38].price}})<br>
+            <div ng-repeat="player in board[38].players">
+                {{player.name}}
+            </div>
+        </td>
+
+    </tr>
+    <tr>
+        <td style="height:34px;border-right:solid 12px DarkOrchid" ng-mouseover="setPopover(11)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[11].name}}</a><br>
+            ${{board[11].price}}<br>
+            <div ng-repeat="player in board[11].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-left:solid 12px Blue" ng-mouseover="setPopover(39)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[39].name}}</a><br>
+            ${{board[39].price}}<br>
+            <div ng-repeat="player in board[39].players">
+                {{player.name}}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:60px;">{{board[10].name}}<br>
+            <div ng-repeat="player in board[10].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-top:solid 12px SkyBlue" ng-mouseover="setPopover(9)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[9].name}}</a><br>
+            ${{board[9].price}}<br>
+            <div ng-repeat="player in board[9].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-top:solid 12px SkyBlue" ng-mouseover="setPopover(8)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[8].name}}</a><br>
+            ${{board[8].price}}<br>
+            <div ng-repeat="player in board[8].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">{{board[7].name}}<br>
+            <div ng-repeat="player in board[7].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-top:solid 12px SkyBlue" ng-mouseover="setPopover(6)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[6].name}}</a><br>
+            ${{board[6].price}}<br>
+            <div ng-repeat="player in board[6].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">
+            {{board[5].name}}<br>
+            ${{board[5].price}}<br>
+            <div ng-repeat="player in board[5].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">{{board[4].name}}<br>
+            (pay ${{board[4].price}})<br>
+            <div ng-repeat="player in board[4].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-top:solid 12px SaddleBrown" ng-mouseover="setPopover(3)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[3].name}}</a><br>
+            ${{board[3].price}}<br>
+            <div ng-repeat="player in board[3].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="">
+            {{board[2].name}}<br>
+            <div ng-repeat="player in board[2].players">
+                {{player.name}}
+            </div>
+        </td>
+        <td style="border-top:solid 12px SaddleBrown" ng-mouseover="setPopover(1)">
+            <a href="#" tooltip-placement="top" uib-tooltip-html="htmlPropertyPopover" tooltip-class="property-popover">{{board[1].name}}</a><br>
+            ${{board[1].price}}<br>
+            <div ng-repeat="player in board[1].players">
+                {{player.name}}
+            </div>
+        </td>
+
+        <!-- Go -->
+        <td>
+            <b>{{board[0].name}}</b><br>
+            (collect ${{board[0].price}})<br>
+            <div ng-repeat="player in board[0].players">
+                {{player.name}}
+            </div>
+            <img alt="Monopoly Go Arrow.png" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Monopoly_Go_Arrow.png/44px-Monopoly_Go_Arrow.png" width="44" height="8" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Monopoly_Go_Arrow.png/66px-Monopoly_Go_Arrow.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Monopoly_Go_Arrow.png/88px-Monopoly_Go_Arrow.png 2x" data-file-width="793" data-file-height="151" class="hoverZoomLink"></td>
+    </tr>
+    </tbody>
+</table>

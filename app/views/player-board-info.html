@@ -1,0 +1,13 @@
+<div id="player-board-info">
+    <div class="player" ng-repeat="player in game.players | orderBy: 'id' as filtered_result track by player.id">
+        {{player.name}}
+        <div ng-repeat="property in player.properties | orderBy: 'colorId'">
+            <div style="height: 10px; width: 10px; background-color: {{property.color}}; display: inline-block; border-radius: 50%;"></div>
+            {{property.name}}
+        </div>
+        <div ng-repeat="item in player.inventory">
+            {{item.text}}
+        </div>
+        <hr>
+    </div>
+</div>

@@ -1,0 +1,615 @@
+{
+  "board": [
+    {
+      "name": "Go",
+      "type": "go",
+      "price": 200,
+      "players": []
+    },
+    {
+      "name": "Mediterranean Avenue",
+      "type": "property",
+      "color": "brown",
+      "price": 60,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 30,
+      "mortgaged": false,
+      "rent": 2,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        10,
+        30,
+        90,
+        160,
+        250
+      ],
+      "buildingCost": 50,
+      "players": []
+    },
+    {
+      "name": "Community Chest",
+      "type": "communityChest",
+      "players": []
+    },
+    {
+      "name": "Baltic Avenue",
+      "type": "property",
+      "color": "brown",
+      "price": 60,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 30,
+      "mortgaged": false,
+      "rent": 4,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        20,
+        60,
+        180,
+        320,
+        450
+      ],
+      "buildingCost": 50,
+      "players": []
+    },
+    {
+      "name": "Income Tax",
+      "type": "tax",
+      "price": 200,
+      "players": []
+    },
+    {
+      "name": "Reading Railroad",
+      "type": "railroad",
+      "price": 200,
+      "rent": 25,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 100,
+      "mortgaged": false,
+      "players": []
+    },
+    {
+      "name": "Oriental Avenue",
+      "type": "property",
+      "color": "cyan",
+      "price": 100,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 50,
+      "mortgaged": false,
+      "rent": 6,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        30,
+        90,
+        270,
+        400,
+        550
+      ],
+      "buildingCost": 50,
+      "players": []
+    },
+    {
+      "name": "Chance",
+      "type": "chance",
+      "players": []
+    },
+    {
+      "name": "Vermont Avenue",
+      "type": "property",
+      "color": "cyan",
+      "price": 100,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 50,
+      "mortgaged": false,
+      "rent": 6,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        30,
+        90,
+        270,
+        400,
+        550
+      ],
+      "buildingCost": 50,
+      "players": []
+    },
+    {
+      "name": "Connecticut Avenue",
+      "type": "property",
+      "color": "cyan",
+      "price": 120,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 60,
+      "mortgaged": false,
+      "rent": 8,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        40,
+        100,
+        300,
+        450,
+        600
+      ],
+      "buildingCost": 50,
+      "players": []
+    },
+    {
+      "name": "Just Visiting",
+      "type": "visiting",
+      "players": []
+    },
+    {
+      "name": "St. Charles Place",
+      "type": "property",
+      "color": "pink",
+      "price": 140,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 70,
+      "mortgaged": false,
+      "rent": 10,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        50,
+        150,
+        450,
+        625,
+        750
+      ],
+      "buildingCost": 100,
+      "players": []
+    },
+    {
+      "name": "Electric Company",
+      "type": "utility",
+      "price": 150,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 75,
+      "mortgaged": false,
+      "players": []
+    },
+    {
+      "name": "States Avenue",
+      "type": "property",
+      "color": "pink",
+      "price": 140,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 70,
+      "mortgaged": false,
+      "rent": 10,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        50,
+        150,
+        450,
+        625,
+        750
+      ],
+      "buildingCost": 100,
+      "players": []
+    },
+    {
+      "name": "Virginia Avenue",
+      "type": "property",
+      "color": "pink",
+      "price": 160,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 80,
+      "mortgaged": false,
+      "rent": 12,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        60,
+        180,
+        500,
+        700,
+        900
+      ],
+      "buildingCost": 100,
+      "players": []
+    },
+    {
+      "name": "Pennsylvania Railroad",
+      "type": "railroad",
+      "price": 200,
+      "rent": 25,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 100,
+      "mortgaged": false,
+      "players": []
+    },
+    {
+      "name": "St. James Place",
+      "type": "property",
+      "color": "orange",
+      "price": 180,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 90,
+      "mortgaged": false,
+      "rent": 14,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        70,
+        200,
+        550,
+        750,
+        950
+      ],
+      "buildingCost": 100,
+      "players": []
+    },
+    {
+      "name": "Community Chest",
+      "type": "communityChest",
+      "players": []
+    },
+    {
+      "name": "Tennessee Avenue",
+      "type": "property",
+      "color": "orange",
+      "price": 180,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 90,
+      "mortgaged": false,
+      "rent": 14,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        70,
+        200,
+        550,
+        750,
+        950
+      ],
+      "buildingCost": 100,
+      "players": []
+    },
+    {
+      "name": "New York Avenue",
+      "type": "property",
+      "color": "orange",
+      "price": 200,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 100,
+      "mortgaged": false,
+      "rent": 16,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        80,
+        220,
+        600,
+        800,
+        1000
+      ],
+      "buildingCost": 100,
+      "players": []
+    },
+    {
+      "name": "Free Parking",
+      "type": "freeParking",
+      "players": []
+    },
+    {
+      "name": "Kentucky Avenue",
+      "type": "property",
+      "color": "red",
+      "price": 220,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 110,
+      "mortgaged": false,
+      "rent": 18,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        90,
+        250,
+        700,
+        875,
+        1050
+      ],
+      "buildingCost": 150,
+      "players": []
+    },
+    {
+      "name": "Chance",
+      "type": "chance",
+      "players": []
+    },
+    {
+      "name": "Indiana Avenue",
+      "type": "property",
+      "color": "red",
+      "price": 220,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 110,
+      "mortgaged": false,
+      "rent": 18,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        90,
+        250,
+        700,
+        875,
+        1050
+      ],
+      "buildingCost": 150,
+      "players": []
+    },
+    {
+      "name": "Illinois Avenue",
+      "type": "property",
+      "color": "red",
+      "price": 240,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 120,
+      "mortgaged": false,
+      "rent": 20,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        100,
+        300,
+        750,
+        925,
+        1100
+      ],
+      "buildingCost": 150,
+      "players": []
+    },
+    {
+      "name": "B. & O. Railroad",
+      "type": "railroad",
+      "price": 200,
+      "rent": 25,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 100,
+      "mortgaged": false,
+      "players": []
+    },
+    {
+      "name": "Atlantic Avenue",
+      "type": "property",
+      "color": "yellow",
+      "price": 260,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 130,
+      "mortgaged": false,
+      "rent": 22,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        110,
+        330,
+        800,
+        975,
+        1150
+      ],
+      "buildingCost": 150,
+      "players": []
+    },
+    {
+      "name": "Ventnor Avenue",
+      "type": "property",
+      "color": "yellow",
+      "price": 260,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 130,
+      "mortgaged": false,
+      "rent": 22,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        110,
+        330,
+        800,
+        975,
+        1150
+      ],
+      "buildingCost": 150,
+      "players": []
+    },
+    {
+      "name": "Water Works",
+      "type": "utility",
+      "price": 150,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 75,
+      "mortgaged": false,
+      "players": []
+    },
+    {
+      "name": "Marvin Gardens",
+      "type": "property",
+      "color": "yellow",
+      "price": 280,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 140,
+      "mortgaged": false,
+      "rent": 24,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        120,
+        360,
+        850,
+        1025,
+        1200
+      ],
+      "buildingCost": 150,
+      "players": []
+    },
+    {
+      "name": "Go to Jail",
+      "type": "goToJail",
+      "players": []
+    },
+    {
+      "name": "Pacific Avenue",
+      "type": "property",
+      "color": "green",
+      "price": 300,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 150,
+      "mortgaged": false,
+      "rent": 26,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        130,
+        390,
+        900,
+        1100,
+        1275
+      ],
+      "buildingCost": 200,
+      "players": []
+    },
+    {
+      "name": "North Carolina Avenue",
+      "type": "property",
+      "color": "green",
+      "price": 300,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 150,
+      "mortgaged": false,
+      "rent": 26,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        130,
+        390,
+        900,
+        1100,
+        1275
+      ],
+      "buildingCost": 200,
+      "players": []
+    },
+    {
+      "name": "Community Chest",
+      "type": "communityChest",
+      "players": []
+    },
+    {
+      "name": "Pennsylvania Avenue",
+      "type": "property",
+      "color": "green",
+      "price": 320,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 160,
+      "mortgaged": false,
+      "rent": 28,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        150,
+        450,
+        1000,
+        1200,
+        1400
+      ],
+      "buildingCost": 200,
+      "players": []
+    },
+    {
+      "name": "Short Line Railroad",
+      "type": "railroad",
+      "price": 200,
+      "rent": 25,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 100,
+      "mortgaged": false,
+      "players": []
+    },
+    {
+      "name": "Chance",
+      "type": "chance",
+      "players": []
+    },
+    {
+      "name": "Park Place",
+      "type": "property",
+      "color": "blue",
+      "price": 350,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 175,
+      "mortgaged": false,
+      "rent": 35,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        175,
+        500,
+        1100,
+        1300,
+        1500
+      ],
+      "buildingCost": 200,
+      "players": []
+    },
+    {
+      "name": "Income Tax",
+      "type": "tax",
+      "price": 100,
+      "players": []
+    },
+    {
+      "name": "Boardwalk",
+      "type": "property",
+      "color": "blue",
+      "price": 400,
+      "owned": false,
+      "ownedBy": "",
+      "mortgageValue": 200,
+      "mortgaged": false,
+      "rent": 50,
+      "monopoly": false,
+      "houses": 0,
+      "houseRent": [
+        200,
+        600,
+        1400,
+        1700,
+        2000
+      ],
+      "buildingCost": 200,
+      "players": []
+    }
+  ]
+}

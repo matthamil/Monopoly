@@ -1,0 +1,50 @@
+<div id="trade-panel">
+    <h1>Trading Options</h1>
+    <p>{{game.players[0].name}} is trading with
+    <select name="select" ng-model="selectedTradee" ng-options="player.name for player in tradeablePlayers() | orderBy: 'id'">
+        <!--<option ng-repeat="player in game.players | orderBy: 'id' as filtered_result track by player.id" ng-if="$index > 0" value="{{player.id}}">{{player.name}}</option>-->
+    </select></p>
+    <div id="init-trade-window">
+        {{game.players[0].name}}'s offer
+        <div class="inner-trade-window">
+            <div class="input-group">
+                <div class="input-group-addon">$</div>
+                <input class="form-control" placeholder="Amount" type="number" ng-model="moneyOffered"><br/>
+                <div class="input-group-addon">.00</div>
+            </div>
+            <div ng-repeat="property in game.players[0].properties" style="background-color:{{property.color}}">
+                <input
+                        type="checkbox"
+                        name="selectedProperties[]"
+                        value="{{property.name}}"
+                        ng-checked="selection.indexOf(property) > -1"
+                        ng-click="toggleSelection(property)"
+                >{{property.name}}
+            </div>
+        </div>
+    </div>
+    <div id="receiver-trade-window">
+        {{selectedTradee.name}}'s offer
+        <div class="inner-trade-window">
+            <div class="input-group">
+                <div class="input-group-addon">$</div>
+                <input class="form-control" placeholder="Amount" type="number" ng-model="moneyOfferedReceiver"><br/>
+                <div class="input-group-addon">.00</div>
+            </div>
+            <div ng-repeat="property in selectedTradee.properties" style="background-color:{{property.color}}">
+                <input
+                        type="checkbox"
+                        name="selectedPropertiesReceiver[]"
+                        value="{{property.name}}"
+                        ng-checked="selectionReceiver.indexOf(property) > -1"
+                        ng-click="toggleSelection(property)"
+                >{{property.name}}
+            </div>
+        </div>
+    </div>
+    <div id="accept-trade-panel">
+        <input type="checkbox" ng-model="trade.init">Accept Trade {{players[0].name}}
+        <input type="checkbox" ng-model="trade.receive"> Accept Trade {{selectedTradee.name}}<br/>
+        <button ng-click="acceptTrade()">Complete Trade</button>
+    </div>
+</div>

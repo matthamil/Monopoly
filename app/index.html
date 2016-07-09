@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Monopoly</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <script src="https://use.fontawesome.com/5ecaa81f94.js"></script>
+</head>
+<body ng-app="monopolyApp">
+    <div class="container">
+        <div class="row" id="jumbotron" ng-controller="announcementController">
+            <h2 id="player-jumbotron">{{activePlayer.name}}'s turn.</h2>
+            <!--<h3 id="gamestate-jumbotron">Game State: {{gameState}}</h3>-->
+        </div>
+        <div ng-controller="boardController">
+            <div id="debug-window">
+                <p>Game State: {{gameState}}</p>
+                <p>Doubles: {{doubleCount}}</p>
+            </div>
+            <div ng-show="true" ng-include="'views/purchase-house-list.html'"></div>
+            <div ng-include="'views/player-info.html'"></div>
+            <div ng-include="'views/player-board-info.html'"></div>
+            <div id="game-controls" class="row">
+                <button class="btn btn-default {{diceRollDisabled()}}" ng-click="game.takeTurn(game.doubleCount)"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Roll Dice</button>
+                <button class="btn btn-default {{endTurnDisabled()}}" ng-click="game.endTurn()"><i class="fa fa-hourglass-o" aria-hidden="true"></i> End Turn</button>
+                <!--
+                <div class="dice-roll">{{diceRolls[0]}}</div>
+                <div class="dice-roll">{{diceRolls[1]}}</div>
+                -->
+            </div>
+            <div ng-include="'views/board.html'"></div>
+        </div>
+        <div ng-controller="tradeController">
+            <div style="text-align:center;">
+                <button ng-click="toggleTrade()">Trade</button>
+            </div>
+            <div ng-include="'views/trade-panel.html'" ng-show="showTrade"></div>
+        </div>
+    </div>
+
+    <script src="lib/jquery-2.2.3.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-sanitize.js"></script>
+    <script src="lib/angular/angular-animate.js"></script>
+    <script src="lib/angular/angular-touch.js"></script>
+    <script src="lib/ui-bootstrap/ui-bootstrap-tpls-1.3.2.js"></script>
+    <script src="lib/thirdparty/scrollglue.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services/boardLogic.js"></script>
+    <script src="js/controllers/boardController.js"></script>
+    <script src="js/controllers/announcementController.js"></script>
+    <script src="js/controllers/tradeController.js"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+body {
+    background-color: #efefef;
+}
+
+#debug-window {
+    position:fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    z-index: 300;
+    left:0;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+#gamelog-container {
+    margin: 0 auto;
+    background-color: #d9d9d9;
+    text-align: center;
+    font-size: 12px;
+}
+
+#gamelog {
+    margin: 0 auto;
+    color: #000000;
+    height: 120px;
+    width: 140px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
+}
+
+#gamelog > ul {
+    margin: 0 0;
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.25;
+}
+
+#gamelog li {
+    /*margin-bottom: 7.5px;*/
+    padding: 2px 5px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+#gamelog li:nth-child(odd) {
+    background-color: #bdddf2;
+}
+
+#property {
+    margin: 5px;
+}
+
+#property-ui {
+    padding: 5px;
+}
+
+#buy-houses-controls {
+    position:fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    z-index: 300;
+    left:0;
+    top:50%;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+#buy-houses-controls h3 {
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+#player-info {
+    position:fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(241,242,206);
+    z-index: 300;
+    right:0;
+    top:40px;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.player {
+    display: block;
+    font-weight: 400;
+}
+
+.player-name {
+    float: left;
+}
+
+.player-money {
+    float: right;
+    margin-left: 15px;
+}
+
+#player-board-info {
+    position:fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 300;
+    right:0;
+    top:200px;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+#jumbotron {
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    width: 400px;
+    border-radius: 0 0 50px 50px;
+    -webkit-box-shadow: 4px 10px 83px -14px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px 10px 83px -14px rgba(0,0,0,0.5);
+    box-shadow: 4px 10px 83px -14px rgba(0,0,0,0.5);
+    background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(0,0,0,0.05) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(0,0,0,0.05) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(0,0,0,0.05) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#player-jumbotron,
+#gamestate-jumbotron {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#player-jumbotron {
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+#gamestate-jumbotron {
+    font-weight: 700;
+}
+
+#game-controls {
+    text-align: center;
+    margin: 10px;
+}
+
+#board {
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+#board a,
+#board a:hover {
+    text-decoration: none;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+.dice-roll {
+    display: inline-block;
+    background-color: #e4e4e4;
+    text-align: center;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.popover {
+    position: absolute;
+    z-index: 100;
+}
+
+.tooltip.property-popover .tooltip-inner {
+    background-color: #FFF;
+    color: #000;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border: 1px solid black;
+}
+
+.title-deed-white {
+    color: #FFF;
+}
+
+.title-deed-black {
+    color: #000;
+}
+
+.property-icon {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#trade-panel {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#init-trade-window {
+    float: left;
+    width: 50%;
+}
+
+#receiver-trade-window {
+    float: right;
+    width: 50%;
+}
+
+#accept-trade-panel {
+    clear: both;
+}
