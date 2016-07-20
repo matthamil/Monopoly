@@ -1,5 +1,5 @@
 #How to Play
-`cd` to the main directory and run `node scripts/web-server`
+Play until critical bugs prevent you from having any fun.
 
 #Product Backlog
 <hbr>
